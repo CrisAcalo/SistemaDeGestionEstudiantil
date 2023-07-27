@@ -6,14 +6,17 @@
     <meta name="csrf-token" content="{{ csrf_token() }}"> 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
-    <link rel="stylesheet" href="{{ asset('vendors/mdi/css/materialdesignicons.min.css') }}">
+    <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
     {{-- <link rel="stylesheet" href="{{ asset('vendors/base/vendor.bundle.base.css') }}"> --}}
     {{-- <link rel="stylesheet" href="{{ asset('vendors/datatables.net-bs4/dataTables.bootstrap4.css') }}"> --}}
-    <link rel="stylesheet" href=" {{ asset('css/style.css') }}">
+    
+    {{-- <link rel="stylesheet" href="./../../../public/css/style.css"> --}}
+    <link rel="stylesheet" href="/css/style.css">
+
     {{-- <link rel="stylesheet" href="{{ asset('css/barra/pace2.css') }}"> --}}
 
-    <link  rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
-    <link  rel="stylesheet" href="{{ asset('css/bootstrap-select.min.css') }}" />
+    <link  rel="stylesheet" href="'css/bootstrap.min.css'">
+    <link  rel="stylesheet" href="'css/bootstrap-select.min.css'" />
 
     {{-- <link rel="shortcut icon" href="{{ asset('images/favicon.png') }}"/> --}}
     <style>

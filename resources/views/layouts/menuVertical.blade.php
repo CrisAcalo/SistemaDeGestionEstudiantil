@@ -20,7 +20,32 @@
                     <span class="menu-title">Registrar Profesor</span>
                 </a>
             </li>
+            
+
+            
+
             <li class="nav-item">
+                <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false"
+                    aria-controls="ui-basic">
+                    <i class="mdi mdi-account-multiple-plus menu-icon"></i>
+                    <span class="menu-title">Sección de Alumnos</span>
+                    
+                </a>
+            </li>
+            
+            <li class="ml-4 nav-item">
+                <a class="nav-link" href="{{ route('alumno.create') }}">
+                    <span class="menu-title">Registrar nuevo Alumno</span>
+                </a>
+            </li>
+
+            <li class="ml-4 nav-item">
+                <a class="nav-link" href="{{ route('alumno.index') }}">
+                    <span class="menu-title">Lista de Alumnos</span>
+                </a>
+            </li>
+
+            {{-- <li class="nav-item">
                 <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false"
                     aria-controls="ui-basic">
                     <i class="mdi mdi-account-multiple-plus menu-icon"></i>
@@ -35,9 +60,31 @@
                                 Alumnos</a></li>
                     </ul>
                 </div>
-            </li>
+            </li> --}}
+
 
             <li class="nav-item">
+                <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
+                    <i class="mdi mdi-file-document-box-outline menu-icon"></i>
+                    <span class="menu-title">Sección de Pagos</span>
+                    
+                </a>
+            </li>
+
+
+            <li class="ml-4 nav-item">
+                <a class="nav-link" href="{{ route('pago.create') }}">
+                    <span class="menu-title">Registrar nuevo Pago</span>
+                </a>
+            </li>
+
+            <li class="ml-4 nav-item">
+                <a class="nav-link" href="{{ route('pago.index') }}">
+                    <span class="menu-title">Lista de Pagos</span>
+                </a>
+            </li>
+
+            {{-- <li class="nav-item">
                 <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
                     <i class="mdi mdi-file-document-box-outline menu-icon"></i>
                     <span class="menu-title">Sección de Pagos</span>
@@ -51,7 +98,7 @@
                         </li>
                     </ul>
                 </div>
-            </li>
+            </li> --}}
 
         </ul>
     </nav>

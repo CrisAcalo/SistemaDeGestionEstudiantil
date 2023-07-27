@@ -16,8 +16,8 @@
 
     <link rel="stylesheet" href="css/barra/pace2.css">
 
-    <link rel="stylesheet" href="'css/bootstrap.min.css">
-    <link rel="stylesheet" href="'css/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css" />
 
     <link rel="shortcut icon" href="images/favicon.png" />
     <style>
